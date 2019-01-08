@@ -1,0 +1,376 @@
+body {
+  background:url(../../image/swimming/2/rio-2016-swimming-pool-design-phelps.jpg) fixed no-repeat center  ;
+  background-size:cover; 
+   font-family: 'Quicksand', sans-serif;
+}
+
+.screen, .screen3 {
+   width: 1170px;
+   margin: 0 auto;
+}
+.screen2 {
+   width: 882px;
+   margin: 0 auto;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+/* Start Of Header */
+button {
+   cursor: pointer;
+}
+/* Start Of Header */
+.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #144670;
+}
+.header .left {
+   float: left;  cursor: pointer;
+}
+.header .right {
+   float: right;
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 28px 10px;
+   font-size: 20px;
+}
+.header .right > ul > a > li:hover {
+   background-color: #0F1618;
+}
+/* End Of Header */
+/*.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #309fe6;
+       height: 79px;
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+   margin-top: -1px;
+}
+.header .right {
+   float: right;
+   margin-top: 11px;
+    
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+    
+    /*border-left:solid 1px white;*/
+}
+
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 16px 16px;
+   font-size: 20px;
+   /* border-left:solid 1px white;*/
+}
+.right ul li:hover
+{ background-color:black;
+     
+} */
+
+/* End Of Header */
+.contact {
+   overflow: hidden;
+}
+/* Start Of Contact */
+.contact {
+   overflow: hidden;
+}
+.coaches{
+  margin-top:0px;
+  border-bottom:#FFF solid;
+}
+.coaches h1{	
+width: 100%;
+    border-top: #FFF;
+    border-bottom: #FFF;
+    border-bottom: solid;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: white;
+    color: white;
+    margin-top: 17px;
+}
+
+.philpscoach{
+	margin-top:-21px;
+	
+}
+.philpscoach img{
+   
+	float:left;
+    border: solid white;
+
+}
+.pic1{
+	width:28%;
+	height:219px;
+	border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+	}
+.pic2{
+    width:28%;
+	height:219px;
+	margin-left:0.5%;
+	border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.pic3{
+	    width: 35%;
+    height: 675px;
+    margin-top: -48%;
+    margin-left: 0.5%;
+}
+.pic5{
+width:28%;
+	height:219px;
+	margin-left:0.5%;
+	border-radius:10%;
+}
+.pic4{width:28%;
+	height:219px;
+	border-radius:10%;}
+	
+	
+.pic6{
+	width:28%;
+	height:219px;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 10%;}
+.pic7{
+	width:28%;
+	height:219px;
+	margin-left:0.5%;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.saf1{
+	width:108%;
+	height:219px;
+    margin-top:4%;
+	
+}
+.saf2{
+	width:108%;
+	height:219px;
+    margin-top:1%;
+	
+}
+.saf3{
+	width:108%;
+	height:219px;
+    margin-top:1%;
+	border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.screen img{
+	    width: 181px;
+    height: 129px;
+    border-radius: 66%;}
+.coach1{
+	border-style:outset;
+	border-color:#FFF;
+	width:auto;
+	height:auto;
+/*	background:rgba(0,0,0,0.4); */
+	background:url(../../image/swimming/2/i.jpg) no-repeat center;
+    background-size: cover;
+	}
+.coach1 p{
+	padding-left:2%;
+	padding-right:2%;}
+	
+	.coach2{
+	border-style:outset;
+	border-color:#FFF;
+	width:auto;
+	height:auto;
+	background: url(../../image/swimming/2/caeleb-dressell-gregg-troy-50-freestyle-usa-swimming-nationals-2015-2307.jpg) no-repeat center;
+    background-size: cover;
+	}
+	.coach2 p{
+	padding-left:2%;
+	padding-right:2%;}
+	.coach3{
+	border-style:outset;
+	border-color:#FFF;
+	width:auto;
+	height:auto;
+	background: url(../../image/swimming/2/Mogrhabi_eoizbh.jpg) no-repeat center;
+    background-size: cover;
+	}
+	.coach3 p{
+	padding-left:2%;
+	padding-right:2%;}
+	.coach4{
+	border-style:outset;
+	border-color:#FFF;
+	width:auto;
+	height:auto;
+	background:url(../../image/swimming/2/charlottebonnet2-800x533.jpg) no-repeat center;
+    background-size: cover;
+	}
+	.coach4 p{
+	padding-left:2%;
+	padding-right:2%;}
+	.coach5{
+	border-style:outset;
+	border-color:#FFF;
+	width:auto;
+	height:auto;
+	background:url(../../image/swimming/2/ben_proud_celebrates_win_gold_coast_2018.jpg) no-repeat center;
+    background-size: cover;
+	}
+	.coach5 p{
+	padding-left:2%;
+	padding-right:2%;}
+p{
+	
+	color:#FFF;
+	text-height:max-size;
+	
+	
+	}
+.coach{
+	border-radius:50%;
+	width:20%;
+	    margin-top: 3%;
+    margin-left: 39%;}	
+	h1{
+     font-size: 2em;
+    margin: 0.67em 0;
+        text-align:center;}
+.coc{
+	margin-top:0px;
+	left:0px;
+	right:5%;
+}
+.button {
+     border-radius: 4px;
+    background-color: #144670;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 63%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* End Of Contact */
+/* Start Of Footer */
+.footer {
+   overflow: hidden;
+   background-color: #0F1618;
+   padding: 50px 0px;
+   color: #ededed;
+   font-size: 14px;
+}
+.footer .top {
+   overflow: hidden;
+}
+.footer .top .main {
+   float: left;
+   width: 32%;
+   margin-right: 10%;
+}
+.footer .top .social {
+   width: 15%;
+   margin: 0px;
+   float: right;
+}
+.footer .top .social > ul > li {
+   margin: 15px 0px 0px 0px;
+   overflow: hidden;
+}
+.footer .top .social > ul > li > img {
+   float: left;
+   margin: 0px 15px 0px 0px;
+}
+.footer .top .social > ul > li > a {
+
+}
+.footer .top .social > ul > li {
+
+}
+.footer .top .main > h3 {
+   color: #fff;
+}
+.footer .top .main > p {
+   margin: 40px 0px;
+}
+.footer .top .main > ul {
+   list-style: none;
+   padding: 0px;
+   margin: 40px 0px;
+}
+.footer .top .main > ul > hr {
+   margin: 12px 0px;
+   border: .5px solid;
+
+}
+.footer .bottom > p {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+.my-button-footer{
+	background:none;
+	border:1px solid #EDEDED;
+	padding:5px 5px;
+	color:#EDEDED;
+	text-align:center;
+	font-size:12px;
+	height:30px;
+	width:100px;
+}
+/* End Of Footrer */
+
+/* Old Footer */
+/*
+.footer {
+   overflow: hidden;
+   color: #fff;
+   background-color: #0F1618;
+   text-align: center;
+   font-size: 20px;
+}
+*/

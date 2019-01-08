@@ -1,0 +1,395 @@
+body {
+   background:url(../../image/swimming/3/Michael-Phelps-SI-cover-shoot-SI523_TK1_00290.jpg)	fixed no-repeat center  ;
+  background-size:cover;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.screen {
+   width: 1170px;
+   margin: 0 auto;
+}
+.screen2 {
+   width: 882px;
+   margin: 0 auto;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+/* Start Of Header */
+button {
+   cursor: pointer;
+}
+/* Start Of Header */
+.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #144670;
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+}
+.header .right {
+   float: right;
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 28px 10px;
+   font-size: 20px;
+}
+.header .right > ul > a > li:hover {
+   background-color: #0F1618;
+}
+/* End Of Header */
+.fix{
+background-attachment:fixed;
+}
+#continer{
+	width:1170px;
+	margin:0 auto;
+	}
+#content{
+       width: 59%;
+    float: left;
+    /* margin-right: 0.5%; */
+    /* margin-left: 11.5%; */
+    height: auto;
+    margin: auto;
+    padding-left: 13%;
+
+	}
+#right{
+	width:15%;
+	float:left;
+		height:auto;
+}
+
+#left{
+	    width: 19%;
+    float: left;
+    height: auto;
+    margin-left: 0%;
+}
+#left img{
+	    height: 356px;
+    width: 300px;
+}
+#footer{
+	clear:both;
+	width:100%;
+}
+.box1 p{
+	color:#000;
+	    margin-left: 38%;
+		color:#FFF;
+}
+.box1 img{
+	    width: 34%;
+    height: 316px;
+    padding-left: 2%;
+    border-bottom-right-radius: 22%;
+    border-top-right-radius: 22%;
+	display: inline-block;
+}
+.box1 h4{
+	margin-left: 40%;
+    margin-top: -40%;
+    font-size: 155%;
+    color: #FFF;
+}
+.box1{
+	border-bottom:solid #FFF;
+        background-color: rgba(0,0,0,0.4);
+}
+.box2{
+	border-bottom:solid #FFF;
+        background-color: rgba(0,0,0,0.4);
+}
+.box2 p{
+	color:#000;
+	    margin-left: 2%;
+		color:#FFF;
+}
+.box2 img{
+	     width: 34%;
+    height: 316px;
+    padding-left: 65%;
+    border-top-left-radius: 78%;
+}
+.box2 h4{
+	       margin-left: 21%;
+    margin-top: -41%;
+    font-size: 155%;
+    color: #FFF;
+}
+.box4{
+	border-bottom:solid #FFF;
+        background-color: rgba(0,0,0,0.4);
+}
+.box4 p{
+	color:#000;
+	    margin-left: 2%;
+		color:#FFF;
+}
+.box4 img{
+	     width: 34%;
+    height: 316px;
+    padding-left: 65%;
+    border-top-left-radius: 78%;
+}
+.box4 h4{
+	     margin-left: 21%;
+    margin-top: -41%;
+    font-size: 155%;
+    color: #FFF;
+}
+.box3 p{
+	color:#000;
+	    margin-left: 38%;
+		color:#FFF;
+}
+.box3 img{
+	    width: 34%;
+    height: 316px;
+    padding-left: 2%;
+    padding-top: 2%;
+    border-bottom-right-radius: 22%;
+    border-top-right-radius: 22%;
+	display: inline-block;
+}
+.box3 h4{
+    margin-left: 40%;
+    margin-top: -40%;
+    font-size: 155%;
+    color: #FFF;
+}
+.box3{
+	border-bottom:solid #FFF;
+        background-color: rgba(0,0,0,0.4);
+}
+.box5 p{
+	color:#000;
+	    margin-left: 38%;
+		color:#FFF;
+}
+.box5 img{
+	    width: 34%;
+    height: 316px;
+    padding-left: 2%;
+	padding-top:2%;
+    border-bottom-right-radius: 22%;
+    border-top-right-radius: 22%;
+	display: inline-block;
+}
+.box5 h4{
+	margin-left: 40%;
+    margin-top: -40%;
+    font-size: 155%;
+    color: #FFF;
+}
+.box5{
+	border-bottom:solid #FFF;
+        background-color: rgba(0,0,0,0.4);
+}
+.screen2 h2{text-decoration: underline;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 191%;
+    padding-left: 8%;
+}
+.ayy{
+	margin-left: -58%;
+    margin-top: 3%;
+}
+.button {
+    border-radius: 4px;
+    background-color: #144670;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 56%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* End Of Header */
+/*.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #309fe6;
+       height: 79px;
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+   margin-top: -1px;
+}
+.header .right {
+   float: right;
+   margin-top: 11px;
+
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+    /*border-left:solid 1px white;*/
+
+
+
+
+.picc img{
+	width:100%;
+	height:649px;
+	background-attachment:fixed;
+	}
+	.picc h1{
+	      position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 44px;
+    left: 43%;
+    top: 66%;
+    color: white;
+    border-bottom: solid;
+	}
+	sup{
+		color:#006;
+		font-size: 90%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;}
+.picc p{
+	    position: absolute;
+    text-align: center;
+    left: 1%;
+    top: 81%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-transform: capitalize;
+    font-size: 19px;
+	}
+
+
+.kalam{
+	width:50%;}
+/* Start Of Footer */
+/*.footer {
+   overflow: hidden;
+   color: #fff;
+   background-color: #171819;
+   text-align : center;
+   font-size: 20px;
+} */
+/* Start Of Footer */
+.footer {
+    overflow: hidden;
+    background-color: #0F1618;
+    padding: 50px 0px;
+    color: #ededed;
+    font-size: 14px;
+    width: 116%;
+    margin-left: -92px;
+}
+.footer .top {
+   overflow: hidden;
+}
+.footer .top .main {
+   float: left;
+   width: 32%;
+   margin-right: 10%;
+}
+.footer .top .social {
+   width: 15%;
+   margin: 0px;
+   float: right;
+}
+.footer .top .social > ul > li {
+   margin: 15px 0px 0px 0px;
+   overflow: hidden;
+}
+.footer .top .social > ul > li > img {
+   float: left;
+   margin: 0px 15px 0px 0px;
+}
+.footer .top .social > ul > li > a {
+
+}
+.footer .top .social > ul > li {
+
+}
+.footer .top .main > h3 {
+   color: #fff;
+}
+.footer .top .main > p {
+   margin: 40px 0px;
+}
+.footer .top .main > ul {
+   list-style: none;
+   padding: 0px;
+   margin: 40px 0px;
+}
+.footer .top .main > ul > hr {
+   margin: 12px 0px;
+   border: .5px solid;
+
+}
+.footer .bottom > p {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+.my-button-footer{
+	background:none;
+	border:1px solid #EDEDED;
+	padding:5px 5px;
+	color:#EDEDED;
+	text-align:center;
+	font-size:12px;
+	height:30px;
+	width:100px;
+}
+/* End Of Footrer */
+
+/* Old Footer */
+/*
+.footer {
+   overflow: hidden;
+   color: #fff;
+   background-color: #0F1618;
+   text-align: center;
+   font-size: 20px;
+}
+*/

@@ -1,0 +1,211 @@
+html
+{
+  background-color: rgb(180,180,180);
+}
+body {
+   /*background-color: #999;*/
+   font-family: 'Quicksand', sans-serif;
+   background-image: url("../../image/Boxing/imgs/red gloves.jpg");
+    margin: 0;
+}
+
+/*Navbox*/
+.navbox
+{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  float: left;
+  color: Black;
+  border-radius: 15px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.navbox a
+{
+  color: black;
+  font-weight: bold;
+}
+.navbox a:hover
+{
+  color: Red;
+}
+.navbox hr
+{
+  visibility: visible;
+  border-color: black;
+}
+/* Content*/
+.content
+{
+
+    font-family: Quicksand;
+    width: 900px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: auto;
+    background-color: rgb(60, 60, 60);
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: auto;
+
+}
+img
+{
+  border-radius: 8px;
+}
+
+
+/*content old style
+.content
+{
+  font-family: Quicksand;
+  width: 1000px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+}*/
+.content p
+{
+  color: white;
+}
+h1.maintitle
+{
+  font-size: 50px;
+  text-align: center;
+}
+h1
+{
+  text-align: center;
+}
+.legends
+{
+  color: lightblue;
+}
+h4
+{
+  display: inline-block;
+}
+p
+{
+  color: white;
+}
+span
+{
+  color:black;
+  font-weight: bold;
+}
+.screen {
+   width: 1170px;
+   margin: 0 auto;
+}
+a {
+   text-decoration: none;
+   color: #fff;
+}
+button {
+   cursor: pointer;
+}
+/* Start Of Header */
+.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #144670;
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+}
+.header .right {
+   float: right;
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 28px 10px;
+   font-size: 20px;
+}
+.header .right > ul > a > li:hover {
+   background-color: #0F1618;
+}
+/* End Of Header */
+
+
+/* Start Of Footer */
+.footer {
+   overflow: hidden;
+   background-color: #0F1618;
+   padding: 50px 0px;
+   color: #ededed;
+   font-size: 14px;
+}
+.footer .top {
+   overflow: hidden;
+}
+.footer .top .main {
+   float: left;
+   width: 32%;
+   margin-right: 10%;
+}
+.footer .top .social {
+   width: 15%;
+   margin: 0px;
+   float: right;
+}
+.footer .top .social > ul > li {
+   margin: 15px 0px 0px 0px;
+   overflow: hidden;
+}
+.footer .top .social > ul > li > img {
+   float: left;
+   margin: 0px 15px 0px 0px;
+}
+.footer .top .social > ul > li > a {
+
+}
+.footer .top .social > ul > li {
+
+}
+.footer .top .main > h3 {
+   color: #fff;
+}
+.footer .top .main > p {
+   margin: 40px 0px;
+}
+.footer .top .main > ul {
+   list-style: none;
+   padding: 0px;
+   margin: 40px 0px;
+}
+.footer .top .main > ul > hr {
+   margin: 12px 0px;
+   border: .5px solid;
+
+}
+.footer .bottom > p {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+.footer img
+{
+  border-radius: 8px;
+}
+.my-button-footer{
+	background:none;
+	border:1px solid #EDEDED;
+	padding:5px 5px;
+	color:#EDEDED;
+	text-align:center;
+	font-size:12px;
+	height:30px;
+	width:100px;
+}
+/* End Of Footrer */

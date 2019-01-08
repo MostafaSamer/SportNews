@@ -1,0 +1,185 @@
+/* start glopal style */
+
+body{
+background-color:#fff;
+font-family:Tahoma, Geneva, sans-serif;
+background-image:url(../images/teambg.png);
+background-repeat:repeat;
+}
+
+.contenar, .screen{
+width:1170px;
+margin:auto;
+}
+
+/* end glopal style */
+
+
+/* Start Of Header */
+.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #144670;
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+}
+.header .right {
+   float: right;
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 28px 10px;
+   font-size: 20px;
+}
+.header .right > ul > a > li:hover {
+   background-color: #0F1618;
+}
+a {
+   text-decoration: none;
+   color: #fff;
+}
+/* End Of Header */
+/* contact me Css */
+.contact{
+	background:#fff;
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+	margin:50px 0px;
+	}
+.contact .info{
+	width:50%;
+	float:left;
+	margin-right:5%;
+}
+.contact .info h2{
+	color:#144670;
+	margin-left:40px;
+}
+.contact .info p{
+	color:#0F1618;
+	margin-left:40px;
+	line-height:1.8;
+}
+.contact .info p strong{
+	color: #666666;
+}
+.contact .form{
+	float:left;
+	width:45%;
+	padding-top:10px;
+}
+.contact .form label{
+	display:block;
+	color:#666666;
+	margin:10px 0;
+}
+.contact .form input[type="text"]{
+	background:#144670;
+	color:#FFF;
+	padding:10px;
+	border:0;
+	width:180%;
+	margin-bottom:10px;
+	opacity:0.8;
+}
+.contact .form textarea{
+	background:#144670;
+	color:#FFF;
+	padding:10px;
+	border:0;
+	width:180%;
+	margin-bottom:10px;
+	height:250px;
+	opacity:0.8
+}
+.contact .form input[type="submit"]{
+	background:#144670;
+	color:#FFF;
+	border:0;
+	padding:10px 15px;
+	margin-top:20px;
+}
+
+/* end contact me Css */
+
+
+
+
+
+
+/* Start Of Footer */
+.footer {
+   overflow: hidden;
+   background-color: #0F1618;
+   padding: 50px 0px;
+   color: #ededed;
+   font-size: 14px;
+   width:100%;
+   margin-top:20px;
+}
+.footer .top {
+   overflow: hidden;
+}
+.footer .top .main {
+   float: left;
+   width: 32%;
+   margin-right: 10%;
+}
+.footer .top .social {
+   width: 15%;
+   margin: 0px;
+   float: right;
+}
+.footer .top .social > ul > li {
+   margin: 15px 0px 0px 0px;
+   overflow: hidden;
+}
+.footer .top .social > ul > li > img {
+   float: left;
+   margin: 0px 15px 0px 0px;
+}
+.footer .top .social > ul > li > a {
+
+}
+.footer .top .social > ul > li {
+
+}
+.footer .top .main > h3 {
+   color: #fff;
+}
+.footer .top .main > p {
+   margin-top: 40px;
+   margin-bottom: 40px:
+}
+.footer .top .main > ul {
+   list-style: none;
+   padding: 0px;
+   margin: 40px 0px;
+}
+.footer .top .main > ul > hr {
+   margin: 12px 0px;
+   border: .5px solid;S
+
+}
+.footer .bottom > p {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+.my-button-footer{
+	background:none;
+	border:1px solid #EDEDED;
+	padding:5px 5px;
+	color:#EDEDED;
+	text-align:center;
+	font-size:12px;
+	height:30px;
+	width:100px;
+}
+/* End Of Footrer */

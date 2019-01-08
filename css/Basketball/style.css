@@ -1,0 +1,195 @@
+/* Basic */
+body {
+   background-color: white ;
+   font-family: 'Quicksand', sans-serif;
+}
+.screen {
+   width: 1170px;
+   margin: 0 auto;
+}
+p,pre{
+  color: black;
+}
+h3{
+  color: black;
+  display: inline-block;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+/* Start Of Header */
+.header {
+   overflow: hidden;
+   color: #fff;
+   background-color: #144670;
+}
+.header2 {
+   overflow: hidden;
+   color: #fff;
+   background-color: #404242;
+}
+.imagee{
+  width: 50%;
+  overflow: hidden;
+  margin: 1%;
+  padding-top: 2%;
+  float: left;
+  
+}
+.hr1{width: 50%;}
+
+.but1{
+  width: 50%;
+  margin: 2%;
+  margin-left: 35%;
+  
+}
+.but1 a button:hover{
+  background-color:black;
+  color:  rgb(11, 138, 166);
+}
+.but1 a button:hover{border:none;}
+
+hr{
+  width: 75%;
+  height: 5%;
+  margin: 2%;
+  color: black;
+}
+.image{
+  width: 50%;
+  overflow: hidden;
+  margin: 1%;
+  float: right;
+  
+}
+.header .left {
+   float: left;
+   cursor: pointer;
+}
+.header2 .left2 {
+   float: left;
+   cursor: row-resize;
+}
+.header .right {
+   float: right;
+}
+.header .right > ul{
+   list-style: none;
+   margin: 0;
+}
+.header .right > ul > a >li{
+   display: inline-block;
+   padding: 28px 18px;
+   font-size: 20px;
+}
+.header .right > ul > a > li:hover {
+   background-color: #171819;
+}
+}
+.header2 .right2 {
+   float: left;
+}
+.imge{
+  width: 100%;
+}
+.divat{
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0.5%;
+  border: 1px solid rgb(171, 168, 167);
+  background-color:rgb(171, 168, 167);
+  margin-bottom: 1%;
+}
+
+.more{
+  
+  color:black;
+}
+.NBAimg{
+  width: 100%;
+}
+.page{
+  background-color:white;
+  overflow: hidden;
+}
+.header2 .right2 > ul{
+   list-style: none;
+   margin-left:23%;
+   margin-top: 0.5%;
+}
+.header2 .right2 > ul > a >li{
+   display: inline-block;
+   padding: 28px 18px;
+   font-size: 20px;
+}
+.header2 .right2 > ul > a > li:hover {
+   background-color: #171819;
+}
+/* End Of Header */
+.contact {
+   overflow: hidden;
+}
+/* Start Of Contact */
+.contact {
+   overflow: hidden;
+}
+/* End Of Contact */
+/* Start Of Footer */
+.footer {
+   overflow: hidden;
+   background-color: #0F1618;
+   padding: 50px 0px;
+   color: #ededed;
+   font-size: 14px;
+}
+.footer .top {
+   overflow: hidden;
+}
+.footer .top .main {
+   float: left;
+   width: 32%;
+   margin-right: 10%;
+}
+.footer .top .social {
+   width: 15%;
+   margin: 0px;
+   float: right;
+}
+.footer .top .social > ul > li {
+   margin: 15px 0px 0px 0px;
+   overflow: hidden;
+}
+.footer .top .social > ul > li > img {
+   float: left;
+   margin: 0px 15px 0px 0px;
+}
+.footer .top .social > ul > li > a {
+
+}
+.footer .top .social > ul > li {
+
+}
+.footer .top .main > h3 {
+   color: #fff;
+}
+.footer .top .main > p {
+   margin: 40px 0px;
+}
+.footer .top .main > ul {
+   list-style: none;
+   padding: 0px;
+   margin: 40px 0px;
+}
+.footer .top .main > ul > hr {
+   margin: 12px 0px;
+   border: .5px solid;
+
+}
+.footer .bottom > p {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+/* End Of Footrer */
